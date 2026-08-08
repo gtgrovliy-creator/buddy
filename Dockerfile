@@ -4,6 +4,7 @@ WORKDIR /app
 
 # Install frontend dependencies
 COPY frontend/package*.json ./frontend/
+COPY frontend/ ./frontend/
 RUN cd frontend && npm install
 
 # Install backend dependencies
