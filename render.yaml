@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: watchparty-backend
+    name: watchparty
     env: node
     plan: free
-    buildCommand: cd frontend && npm install && npm run build && cd ../backend && npm install
+    buildCommand: npm install && cd frontend && npm install && npm run build && cd ../backend && npm install
     startCommand: cd backend && npm start
     envVars:
       - key: PORT
