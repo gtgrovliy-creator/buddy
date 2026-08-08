@@ -15,8 +15,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-    "types": ["vite/client"]
+    "noUncheckedSideEffectImports": true
   },
   "include": ["src", "src/global.d.ts"]
 }
